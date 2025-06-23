@@ -25,9 +25,7 @@ spec:
       type: docker
       image: ttl.sh/strimzi-connect-example-4.0.0:24h
     plugins:
-      - name: idcrqv1006
+      - name: kafka-connect-gcs
         artifacts:
           - type: zip
-            url: https://github.com/Ousseynou03/Data_Platform_Kafka_GKE/raw/refs/heads/main/confluentinc-kafka-connect-gcs-10.3.2.zip
-          - type: zip
-            url: http://192.168.1.48/devops-kafka/connectors/-/raw/main/rqv1006/IdcRQV1006/files/services_config/IdcRQV1006.zip
+            url: https://github.com/Ousseynou03/Data_Platform_Kafka_GKE/raw/refs/heads/main/zip-connectors/confluentinc-kafka-connect-gcs-10.3.2.zip
